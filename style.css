@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #c1c5f2;
+    
+}
+nav{
+    max-width: 1000px;
+    margin: auto;
+}
+.genlayout {
+    max-width: 1000px;
+    margin: auto;
+}
+.innernav{
+    border: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavItems{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.NavItems a{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.NavItems > a :nth-child(1){
+    color: red;
+}
+form{
+    flex: 1;
+}
+.inputcontainer{
+   border: aqua; 
+    
+}
+.image {
+    flex: 1;
+border: 50%;
+}
